@@ -12,6 +12,7 @@
 		DE304BC81DF64900005EEA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE304BC61DF64900005EEA29 /* Main.storyboard */; };
 		DE304BCA1DF64900005EEA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE304BC91DF64900005EEA29 /* Assets.xcassets */; };
 		DE304BCD1DF64900005EEA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE304BCB1DF64900005EEA29 /* LaunchScreen.storyboard */; };
+		DEE27D961DF65EE30092C134 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE27D951DF65EE30092C134 /* SubjectsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DE304BC91DF64900005EEA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE304BCC1DF64900005EEA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE304BCE1DF64900005EEA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE27D951DF65EE30092C134 /* SubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectsViewController.swift; path = ../SubjectsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DE304BC21DF64900005EEA29 /* AppDelegate.swift */,
 				DE304BC41DF64900005EEA29 /* ViewController.swift */,
+				DEE27D951DF65EE30092C134 /* SubjectsViewController.swift */,
 				DE304BC61DF64900005EEA29 /* Main.storyboard */,
 				DE304BC91DF64900005EEA29 /* Assets.xcassets */,
 				DE304BCB1DF64900005EEA29 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				DE304BC51DF64900005EEA29 /* ViewController.swift in Sources */,
 				DE304BC31DF64900005EEA29 /* AppDelegate.swift in Sources */,
+				DEE27D961DF65EE30092C134 /* SubjectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				DE304BD31DF64900005EEA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
